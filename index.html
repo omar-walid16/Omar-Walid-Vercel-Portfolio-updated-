@@ -15,8 +15,6 @@
     <title>Omar Walid | Personal Portfolio</title>
 </head>
 <body class="main-bg main-text">
-
-
     <section id="loading" class="d-flex justify-content-center align-items-center ">
         <div class="d-inline-block">
             <h3 class="text-center m-5 p-5">Welcome To My Portfolio</h3>
@@ -107,18 +105,12 @@
                 
                 
             </div>
-            <div class="scroll-indicator">
-                <div class="scroll-mouse">
-                    <div class="scroll-wheel"></div>
-                </div>
-                <p>Scroll to explore</p>
-        </div>
         </section>
 
-        <section id="about" class="about-section container">
+        <section id="about" class="about-section container-fluid p-4">
             <div class="section-header">
                 <h2 class="section-title">About Me</h2>
-                <p class="section-subtitle">
+                <p class="text-muted pb-4">
                     Motivated Junior Frontend Developer eager to grow and contribute to amazing projects.
                 </p>
             </div>
@@ -173,8 +165,8 @@
                     </div>
                 </div>
                 
-                <div class="timeline-section">
-                    <h3 class="timeline-title">My Journey</h3>
+                <div>
+                    <h3 class="timeline-title py-4">My Journey</h3>
                     <div class="timeline">
                         <div class="timeline-item" data-year="2024">
                             <div class="timeline-dot"></div>
@@ -246,7 +238,7 @@
         <h2 class="section-title">Featured Projects</h2>
             <div class="row">
                 <div class="project-item col-md-4 p-2">
-                    <img src="images/Movies_Series_React_App.png" alt="Movies & Series React App">
+                    <img src="Movies_Series_React_App.png" alt="Movies & Series React App">
                     <div class="project-overlay">
                         <h3>Movies & Series React App</h3>
                         <p>Explore movies and TV shows with a fast React interface, real-time data, and a smooth, user-friendly experience.</p>
@@ -254,7 +246,7 @@
                     </div>
                 </div>
                 <div class="project-item col-md-4 p-2">
-                    <img src="images/Vercel-Portfolio.png" alt="Vercel Portfolio">
+                    <img src="Vercel-Portfolio.png" alt="Vercel Portfolio">
                     <div class="project-overlay">
                         <h3>Vercel Portfolio</h3>
                         <p>A personal portfolio to showcase my projects, skills, and creative work in a clean, responsive design.</p>
@@ -262,7 +254,7 @@
                     </div>
                 </div>
                 <div class="project-item col-md-4 p-2">
-                    <img src="images/weather-app.png" alt="Weather App">
+                    <img src="weather-app.png" alt="Weather App">
                     <div class="project-overlay">
                         <h3>Weather App</h3>
                         <p>Check real-time weather updates with a simple, modern interface powered by API integration and smooth React performance.</p>
@@ -272,7 +264,7 @@
             </div>
             <div class="row pt-lg-3">
                 <div class="project-item col-md-4 p-2">
-                    <img src="images/C.Project .png" alt="Crud Project">
+                    <img src="C.Project .png" alt="Crud Project">
                     <div class="project-overlay">
                         <h3>Crud Project</h3>
                         <p>Manage products easily using CRUD operations with a clean UI, smooth data handling, and efficient functionality.</p>
@@ -280,7 +272,7 @@
                     </div>
                 </div>
                 <div class="project-item col-md-4 p-2">
-                    <img src="images/P.P.png" alt="Previous Portfolio">
+                    <img src="P.P.png" alt="Previous Portfolio">
                     <div class="project-overlay">
                         <h3>Previous Portfolio</h3>
                         <p>An upgraded portfolio version with improved UI, new animations, and better performance for a modern web experience.</p>
@@ -288,7 +280,7 @@
                     </div>
                 </div>
                 <div class="project-item col-md-4 p-2">
-                    <img src="images/Smart_Login.png" alt="Smart Login">
+                    <img src="Smart_Login.png" alt="Smart Login">
                     <div class="project-overlay">
                         <h3>Smart Login</h3>
                         <p>A secure login system featuring form validation, local storage handling, and a fast, user-friendly interface.</p>
@@ -369,25 +361,27 @@
                         </ul>
                         <button class="plan-button secondary">Choose Starter</button>
                     </div>
-                    
-                    <div class="plan-card col-md-4">
-                        <div class="plan-badge">Most Popular</div>
-                        <div class="plan-header">
-                            <h3 class="plan-name">Professional</h3>
-                            <div class="plan-price">
-                                <span class="price-amount" data-monthly="$125">$25</span>
+                    <div class="p-3 col-md-4">
+                        <div class="plan-card">
+                            <div class="plan-badge">Most Popular</div>
+                            <div class="plan-header">
+                                <h3 class="plan-name">Professional</h3>
+                                <div class="plan-price">
+                                    <span class="price-amount" data-monthly="$125">$25</span>
+                                </div>
                             </div>
+                            <ul class="plan-features">
+                                <li>✓ 15 Pages Website</li>
+                                <li>✓ Advanced SEO</li>
+                                <li>✓ Mobile Responsive</li>
+                                <li>✓ Custom Domain</li>
+                                <li>✓ Animations & Effects</li>
+                                <li>✓ API Integration</li>
+                            </ul>
+                            <button class="plan-button secondary">Choose Professional</button>
                         </div>
-                        <ul class="plan-features">
-                            <li>✓ 15 Pages Website</li>
-                            <li>✓ Advanced SEO</li>
-                            <li>✓ Mobile Responsive</li>
-                            <li>✓ Custom Domain</li>
-                            <li>✓ Animations & Effects</li>
-                            <li>✓ API Integration</li>
-                        </ul>
-                        <button class="plan-button secondary">Choose Professional</button>
                     </div>
+                    
                     
                     <div class="plan-card col-md-4">
                         <div class="plan-header">
@@ -427,8 +421,8 @@
                         </div>
                         <h3>Send me an Email</h3>
                         <p>Fastest way to get a response</p>
-                        <a href="mailto:omarwalid20099@gmail.com" class="contact-link-email">
-                            omarwalid20099@gmail.com
+                        <a href="mailto:omarwalid20099@gmail.com" class="contact-link">
+                            Click Here
                             <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
