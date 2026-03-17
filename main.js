@@ -181,14 +181,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Scroll indicator click
-document.querySelector('.scroll-indicator').addEventListener('click', () => {
-    window.scrollTo({
-        top: window.innerHeight,
-        behavior: 'smooth'
-    });
-});
-
 // Initialize
 document.addEventListener('DOMContentLoaded', function() {
     typeWriter();
